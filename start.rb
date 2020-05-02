@@ -7,7 +7,6 @@ print ">>"
 
 date = gets.chomp
 astroids = NearEarthObjects.new(date)
-astroid_details = astroids.astroid_details
 astroid_list = astroids.formatted_asteroid_data
 total_number_of_astroids = astroids.total_number_of_astroids
 largest_astroid = astroids.largest_astroid_diameter
